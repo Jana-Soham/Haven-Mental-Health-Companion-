@@ -33,13 +33,6 @@
 
 
 
-```typescript
-interface ISonicToken {
-    function mint(address to, uint256 amount) external;
-    function stake(uint256 amount) external;
-    function getRewards() external view returns (uint256);
-}
-```
 
 - **Tokenized Reward System**
   - Achievement-based token distribution
@@ -49,19 +42,7 @@ interface ISonicToken {
 
 ## 🛠 Technical Implementation
 
-### AI Agent Architecture
 
-```typescript
-class TherapyAgentConfig {
-  name: string;
-  personality: string;
-  specialties: string[];
-  language_model: string = "gemini-1.5-flash";
-  temperature: float = 0.7;
-  therapy_approach: string;
-  crisis_protocol: Object;
-}
-```
 
 ### Security Measures
 
@@ -77,23 +58,7 @@ class TherapyAgentConfig {
   - Regular security audits
   - Privacy-preserving analytics
 
-### Crisis Detection System
 
-```typescript
-const detectStressSignals = (message: string): StressPrompt | null => {
-  const stressKeywords = [
-    "stress",
-    "anxiety",
-    "worried",
-    "panic",
-    "overwhelmed",
-    "nervous",
-    "tense",
-    "pressure",
-  ];
-  // Advanced pattern matching and intervention logic
-};
-```
 
 
 ---
