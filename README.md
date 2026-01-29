@@ -15,30 +15,6 @@
   - Real-time crisis detection and emergency protocols
   - Continuous learning and improvement system
 
-### 🎨 Blockchain-Secured Therapy Sessions
-
-- **Smart Contract Architecture**
-
-  ```solidity
-  struct TherapySession {
-      uint256 sessionId;
-      uint256 timestamp;
-      string summary;
-      string[] topics;
-      uint256 duration;
-      uint8 moodScore;
-      string[] achievements;
-      bool completed;
-  }
-  ```
-
-- **HIPAA-Compliant Data Management**
-
-  - End-to-end encryption for all communications
-  - Zero-knowledge proofs for privacy
-  - Decentralized storage of session records
-  - Granular consent management system
-
 
 ### 🌈 Interactive Therapeutic Features
 
@@ -97,7 +73,6 @@ class TherapyAgentConfig {
   - Automated security monitoring
 
 - **Data Protection**
-  - HIPAA-compliant encryption
   - Secure key management
   - Regular security audits
   - Privacy-preserving analytics
@@ -123,6 +98,4 @@ const detectStressSignals = (message: string): StressPrompt | null => {
 
 ---
 
-<p align="center">
-Built with ❤️ on Sonic Blaze Testnet and Zerepy for better mental health
-</p>
+
