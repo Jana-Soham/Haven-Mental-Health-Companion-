@@ -1,4 +1,4 @@
-# Haven: AI-Powered Mental Health Support on Sonic 🧠⛓️
+# Haven: AI-Powered Mental Health Support  🧠⛓️
 
 
 > An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. B
