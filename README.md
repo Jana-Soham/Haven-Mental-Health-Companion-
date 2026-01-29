@@ -69,6 +69,24 @@
   - Real-time crisis detection and emergency protocols
   - Continuous learning and improvement system
 
+  - ### 🎨 Blockchain-Secured Therapy Sessions
+
+ **Smart Contract Architecture**
+
+  ```solidity
+  struct TherapySession {
+      uint256 sessionId;
+      uint256 timestamp;
+      string summary;
+      string[] topics;
+      uint256 duration;
+      uint8 moodScore;
+      string[] achievements;
+      bool completed;
+  }
+  ```
+
+
 
 ### 🌈 Interactive Therapeutic Features
 
@@ -96,6 +114,37 @@
 
 ## 🛠 Technical Implementation
 
+### AI Agent Architecture
+
+```typescript
+class TherapyAgentConfig {
+  name: string;
+  personality: string;
+  specialties: string[];
+  language_model: string = "gemini-1.5-flash";
+  temperature: float = 0.7;
+  therapy_approach: string;
+  crisis_protocol: Object;
+}
+```
+
+### Crisis Detection System
+
+```typescript
+const detectStressSignals = (message: string): StressPrompt | null => {
+  const stressKeywords = [
+    "stress",
+    "anxiety",
+    "worried",
+    "panic",
+    "overwhelmed",
+    "nervous",
+    "tense",
+    "pressure",
+  ];
+  // Advanced pattern matching and intervention logic
+};
+```
 
 
 ### Security Measures
